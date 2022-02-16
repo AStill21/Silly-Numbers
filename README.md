@@ -18,5 +18,8 @@
 ## Tests
   _Description: number input
 
-  Test: This test will... 
+  Test: It will change string into nubers.
+  code: parseInt(numberInput)
+  Expected Outcome: "1" -> 1...
+
     
