@@ -35,7 +35,7 @@ function numberCounter(text) {
   const numberArray = text.split(" ");
   console.log(numberArray);
   numberArray.forEach(function (element) {
-    if (!parseInt(element)) {
+    if (parseInt(element)) {
       numberCount++;
     }
   });

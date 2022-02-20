@@ -31,6 +31,6 @@
   Code: if (inputtedNumber='3') {
     return newArray.push('won't you be my neighbor?');
   };
-  Expected Outcome: 
+  Expected Outcome: 1, 2, "Won't you be my neighbor?", 4.....
 
-    
+  
