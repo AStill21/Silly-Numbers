@@ -18,8 +18,19 @@
 ## Tests
   _Description: number input
 
+  Test: It will create and store array and new array
+  Code: const array= []
+        const newArray = array.map(function(number))...
+  Expected Outcome: newArray = ['boop', 'beep', 4, 5, 6...]
+
   Test: It will change string into nubers.
   code: parseInt(numberInput)
-  Expected Outcome: "1" -> 1...
+  Expected Outcome: "1" -> 1, '2' - 2.
+
+  Test: It will change the numbers containing '3' with the statement 'won't you be my neighbor?'
+  Code: if (inputtedNumber='3') {
+    return newArray.push('won't you be my neighbor?');
+  };
+  Expected Outcome: 
 
     

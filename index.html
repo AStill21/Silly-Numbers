@@ -2,21 +2,33 @@
 <html lang="en">
 <head> 
   <title>Silly Numbers</title>
-  <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script srce="js/jquery-3.5.1.js"></script>
-  <script srce="js/scripts.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
 <body>
   <div class="container">
-      <h1>Silly Numbers!</h1>
+    <h2>Silly Numbers!</h2>
+  <form id="silly-numbers">
+    <div class="form-group">
       <p>Input any number and watch what comes out!</p>
-    <form id="silly-numbers"></form>    
-      <div class="form-group">
-      <label for="userInput">Enter a number!</label>
-      <input id="userInput" class="form-control" type="text">
-  </div>
+      <textarea id="text-passage" name="text-passage" class="form-control"></textarea>
+      <p>**Optional** Enter a number to count the amount of times it occurs in your results:</p>
+      <input type="text" id="word" name="word" class="form-control">
+      <br>
+      <button type="submit" class="btn btn-success">EnTeR</button>
+    </div>
+  </form>
+  <p>Total Number Count: <span id="total-count"></span></p>
+  <br>
+  <p>Selected number Count: <span id="selected-count"></span></p>
+  <span id="bolded-passage"></span>
+  <br>
+  <p>YoUr ReSuLtS!: <span id="silly-numbers-returned"></span></p>
+  <span id="passage"></span>
+</div>
 
-  <button type="submit" class="btn">ENTER</button>
+
 </body>
 </html>
